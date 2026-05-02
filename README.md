@@ -1,33 +1,34 @@
 # Intuitive Surgical (intuitive-surgical)
-Intuitive Surgical is a Fortune 500 company. This repository captures the APIs, developer tools, and machine-readable API artifacts for Intuitive Surgical.
+Intuitive Surgical is the global leader in robotic-assisted minimally invasive surgery, developing and marketing the da Vinci surgical system, Ion endoluminal system, and the Intuitive Hub for case management, streaming, and integration in operating rooms worldwide.
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/intuitive-surgical/refs/heads/main/apis.yml)
 
 ## Scope
 
-- **Type:** Contract
+- **Type:** Index
 - **Position:** Consuming
 - **Access:** 3rd-Party
 
 ## Tags:
 
- - Fortune 500
+ - Robotic Surgery, Medical Devices, Healthcare, Surgery, da Vinci, Fortune 500
 
 ## Timestamps
 
 - **Created:** 2026-03-21
-- **Modified:** 2026-03-21
+- **Modified:** 2026-04-28
 
 ## APIs
 
-No public APIs have been documented yet. Contributions welcome.
+No public APIs have been documented yet. Intuitive Surgical's da Vinci, Ion, and Intuitive Hub platforms operate as regulated medical devices and do not currently expose a public developer portal or open API. Integrations occur through institutional partnerships and clinical informatics channels.
 
 ## Common Properties
 
-- [Website](https://www.intuitive-surgical.com)
+- [Website (intuitive.com)](https://www.intuitive.com)
+- [Website (intuitive-surgical.com)](https://www.intuitive-surgical.com)
 
 ## Maintainers
 
-**FN:** API Evangelist
+**FN:** Kin Lane
 
-**Email:** info@apievangelist.com
+**Email:** kin@apievangelist.com
