@@ -1,7 +1,9 @@
 ---
 title: 'Intuitive Surgical''s AI Strategy: Analysis of Dominance in ...'
 url: https://www.klover.ai/intuitive-surgical-ai-strategy-analysis-of-dominance-in-surgical-ai/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Intuitive Surgical" press release artificial intelligence'
 position: 5
 source: serpapi-google

@@ -1,7 +1,9 @@
 ---
 title: Future of Surgical Robotics | Da Vinci | Ion
 url: https://www.intuitive.com/en-us/about-us/newsroom/future-surgical-robotics
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Intuitive Surgical" press release artificial intelligence'
 position: 4
 source: serpapi-google

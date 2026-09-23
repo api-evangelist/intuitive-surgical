@@ -1,7 +1,9 @@
 ---
 title: Integrated Intelligence in Robotic Surgery | Newsroom
 url: https://www.intuitive.com/en-us/about-us/newsroom/integrated-intelligence
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Intuitive Surgical" press release artificial intelligence'
 position: 2
 source: serpapi-google
