@@ -146,6 +146,54 @@ edges:
     identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
   detected_by: sweep-canada-medical-device-licensing.py
   first_seen: '2026-10-22'
+- partner_name: FDA establishment registration and device listing (radiology / cardiovascular / robotic surgery)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRL/rl.cfm
+  category: FDA-registered device establishment
+  contract_reference:
+    register: openFDA device/registrationlisting (owner/operator; specialties Radiology + Cardiovascular, product
+      code NAY)
+    standard: FDA establishment registration and device listing (21 CFR 807)
+    spec_file: null
+    role: fda-registered-owner-operator
+    registered_name: Intuitive Surgical, Inc.
+    matched_domain: intuitive.com
+    matched_by: domain
+    detected_by: sweep-fda-device-establishment-registrations.py
+    detected: '2026-10-23'
+    listed_specialties:
+    - Radiology
+    - Robotic surgery (product code NAY)
+    specialty_tags:
+    - radiology
+    - robotic-surgery
+    owner_country: US
+    fei_sample:
+    - '3001675293'
+    - '3005369776'
+    - '3007487007'
+    product_codes_sample:
+    - NAY
+    - GCJ
+    - KCT
+    - EOQ
+    - MNL
+    - GAG
+    - GDW
+    - IZI
+    nuclear_medicine_codes: []
+    signal_note: 'REGULATED through the establishment registration: a registration is not a clearance, so no certified_products;
+      specialties / product codes are context, never counted. Complements ivd-diagnostics'' registration edge (eight
+      other specialties)'
+    identity: wikidata Q2743863 'Intuitive Surgical' P856 https://www.intuitive.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-fda-device-establishment-registrations.py
+  first_seen: '2026-10-23'
 generated: '2026-10-18'
 method: searched
 source:
@@ -162,3 +210,4 @@ checked:
 - https://www.advamed.org/advameddx/members/
 - https://health-products.canada.ca/api/medical-devices/company/?lang=en&type=json
 - https://health-products.canada.ca/api/medical-devices/licence/?lang=en&type=json
+- https://api.fda.gov/device/classification.json
